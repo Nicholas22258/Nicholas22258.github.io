@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html dir = "ltr">
+    <head>
+        <title>Sell Item</title>
+        
+        <link rel = "stylesheet" href = "Header_And_Footer.css">
+        <link rel = "stylesheet" href = "Sell_Item.css">
+    </head>
+    <body>
+        <header>
+            <img src = "images_main/Logo.png" alt = "Nick C2C Logo" id = "logo">
+            <div id = "buy_sell">
+                <label id = "buy">Buy</label>
+                <label id = "sell">Sell</label>
+            </div>
+            <div id = "searchbox">
+                <form action = "" method = "GET" target = "_self">
+                    <input type = "text" id = "search" name = "search">
+                    <input type = "submit" id = "btnSearch" value = "Search">
+                </form>
+            </div>
+            <div id = "account">
+                <label id = "user">Log In</label>
+            </div>
+        </header>
+        
+        <main>
+            <div id = "enterInfo">
+                <form action = "" method = "get">
+                    <label for = "itemName">Item Name: </label><br>
+                    <input type = "text" id = "itemName" name = "itemName" class = "inputBoxes"><br><br>
+                    <label>Item Picture: </label><br>
+                    <input type = "image" src = "" alt = "image" id = "itemPicture" name = "itemPicture"><br>
+                    <input type = "button" id = "btnItemPicture" name = "btnItemPicture" value = "Submit Picture"><br><br>
+                    <label for = "price">Price: </label><br>
+                    <input type = "text" id = "price" name = "price"  class = "inputBoxes"><br><br>
+                    <label for = "description">Description: </label><br>
+                    <textarea id = "description" name = "description" rows = "5" cols = "50"></textarea><br><br>
+                    <input type = "submit" id = "submit" value = "Add Item">
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <div id = "socialMedia">
+                <img src = "images_main/Facebook.png" alt = "Facebook Logo" id = "facebook" class = "footerImages">
+                <img src = "images_main/LinkedIn.png" alt = "LinkedIn Logo" id = "linkedin" class = "footerImages">
+            </div>
+            <div id = "footerLabels">
+                <label id = "aboutUs">About Us</label>
+                <label id = "help">Help</label>
+                <label id = "businessPolicies">Business Policies</label>
+                <label id = "copyright">Copyright Reserved</label>
+            </div>
+        </footer>
+    </body>
+</html>

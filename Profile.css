@@ -1,0 +1,71 @@
+/* 
+    Created on : 15 Mar 2025, 14:15:58
+    Author     : Nicholas Leong EDUV4551823
+*/
+
+main{
+    display: flex;
+}
+
+#profilePic{
+    display: flex;
+}
+
+#profilePicture{
+    height: 3.5cm; 
+    width: 3.5cm;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#changePicture{
+    height: 0.9cm;
+    width: 2cm;
+}
+
+#personalInfo{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid black;
+}
+
+.inputBoxes{
+    width: 10cm;
+    height: 0.9cm;
+    border-radius: 10px;
+}
+
+#password{
+    width: 3cm;
+    height: 1cm;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+#save{
+    height: 2cm;
+    width: 4cm;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+#deleteAccount{
+    height: 2cm;
+    width: 4cm;
+    float: right;
+    background-color: #f04a4a;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+#yourItems{
+    float: right;
+    right: 0;
+    border: 1.5px solid black;
+    margin-left: auto;
+    min-width: 10cm;
+}
+
+#itemsLabel{
+   font-size: 16px;
+}

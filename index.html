@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html dir = "ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>NickC2C - Home</title>
+        <link rel = "stylesheet" href = "Homepage_CSS.css">
+        <link rel = "stylesheet" href = "Header_And_Footer.css">
+        
+        
+        <style>
+            button{
+                height: 5cm;
+                width: 10cm;
+            }
+        </style>
+        
+        
+        
+    </head>
+    <body>
+        <header>
+            <img src = "images_main/Logo.png" alt = "Nick C2C Logo" id = "logo">
+            <div id = "buy_sell">
+                <label id = "buy">Buy</label>
+                <label id = "sell">Sell</label>
+            </div>
+            <div id = "searchbox">
+                <form action = "" method = "GET" target = "_self">
+                    <input type = "text" id = "search" name = "search">
+                    <input type = "submit" id = "btnSearch" value = "Search">
+                </form>
+            </div>
+            <div id = "account">
+                <label id = "user" onclick = "window.open('http://localhost/NickC2C_PHP/LogIn/LogIn.php', '_self')">Log In</label>
+            </div>
+        </header>
+        <main>
+            
+
+            
+            <button id = "changePicture" name = "changePicture" onclick = "window.open('Profile.html', '_self')">Profile</button>
+            <button id = "sellItem" name = "sellItem" onclick = "window.open('Sell_Item.html', '_self')">Sell Item</button>
+            <button id = "admin" name = "admin" onclick = "window.open('Admin.html', '_self')">Admin</button>
+            
+        </main>
+        
+        <footer>
+            <div id = "socialMedia">
+                <img src = "images_main/Facebook.png" alt = "Facebook Logo" id = "facebook" class = "footerImages">
+                <img src = "images_main/LinkedIn.png" alt = "LinkedIn Logo" id = "linkedin" class = "footerImages">
+            </div>
+            <div id = "footerLabels">
+                <label id = "aboutUs">About Us</label>
+                <label id = "help">Help</label>
+                <label id = "businessPolicies">Business Policies</label>
+                <label id = "copyright">Copyright Reserved</label>
+            </div>
+        </footer>
+    </body>
+</html>
